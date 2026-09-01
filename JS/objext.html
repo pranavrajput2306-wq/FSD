@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="ad()">Click Me</button><br>
+    <script>
+        function ad(){
+            let a=prompt("enter a number");
+            document.write(a);
+        }
+        //JSON-java script object notation,container for object// can be used as a local database
+        const stu={
+            name:"Pranav",
+            class:"CSE-21",
+            address:"Gzb",
+            fee:10000
+        };
+        // document.write(stu);
+        for(let key in stu){
+            document.write(`${key} : ${stu[key]} <br>`)
+        }
+    
+        //[object,Object]=> as an array , object:datatype ,Object:data kaisa hai 
+
+    </script>
+</body>
+</html>
