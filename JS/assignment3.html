@@ -1,0 +1,100 @@
+<!-- design a card 600px by 600px isme img bus bus booking system uske nice box jisme user info user name,user age,user adhar no,
+select city drop down journey date, uske niche ek aur box bus information radio ac bus 2000 ,non ac,select your seat,buy now-->
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    #parent{
+        height:600px;
+        width:600px;
+        background-color: blueviolet;
+        display: flex;
+        flex-direction: column;
+        border: 5px solid black;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .userinfo{
+        text-align: center;
+    }
+    #submit{
+        margin-top: 90px;
+        margin-left: 250px;
+    }
+    #form{
+        color: white;
+    }
+</style>
+<body>
+    <div id="parent">
+        <div class="header">
+            <img src="https://sribalajitravels.co/wp-content/uploads/2025/02/WhatsApp-Image-2025-01-08-at-12.58.16-AM-scaled-1.jpeg" alt="bus image" height="100px" style="border-radius: 50px; margin:20px;" >
+            <h1 style="color: white ; margin: 30px;">Bus Booking System</h1>
+        </div>
+        <div class="userinfo" style="background-color: white; height: 45px; margin-bottom: 20px;"><h2>User Information</h2></div>
+          <div id="form">
+          <form action="">
+            <table>
+                <tr>
+                    <td>User Name:</td>
+                    <td><input type="text" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td>User Age:</td>
+                    <td><input type="number" placeholder="Enter your age"></td>
+                </tr>
+                <tr>
+                    <td>User Adhaar:</td>
+                    <td><input type="number" placeholder="Enter Adhaar no"></td>
+                </tr>
+                <tr>
+                    <td>Select your city:</td>
+                    <td><Select>
+                        <option value="">Ghaziabad</option>
+                        <option value="">Noida</option>
+                        <option value="">Delhi</option>
+                        <option value="">Kanpur</option>
+                    </Select></td>
+                </tr>
+                <tr>
+                    <td>Date:</td>
+                    <td><input type="date"></td>
+                </tr>
+            </table>
+            <div class="userinfo" style="background-color: white; height: 45px; margin-bottom: 20px; color: black;"><h2>Bus Information</h2></div>
+            <table>
+                <tr>
+                    <td><input type="radio">AC BUS 2000</td>
+                </tr>
+                <tr>
+                    <td><input type="radio">Non Ac Bus 1500</td>
+                </tr>
+                <tr>
+                    <td><select name="" id="" ><option value="" p>Select no of seats</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option></select></td>
+                </tr>
+            </table>
+            <button id="submit">Submit</button>
+          </form>
+          
+    </div>
+    
+</body>
+</html>
