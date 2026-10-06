@@ -7,7 +7,7 @@ const Card = () => {
         <h1>PIZZA</h1>
         <img src="https://img.magnific.com/free-psd/delicious-pepperoni-pizza-culinary-delight_632498-24206.jpg" alt="" height={'100px'}/>
         <h2>Price:500</h2> 
-      </>
+      </div>
     </div>
   )
 }
