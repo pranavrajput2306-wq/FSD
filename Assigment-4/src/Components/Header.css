@@ -1,0 +1,10 @@
+div>ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+div>ul>a{
+    text-decoration: none;
+    list-style: none;
+}

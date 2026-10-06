@@ -32,7 +32,7 @@ select city drop down journey date, uske niche ek aur box bus information radio 
         text-align: center;
     }
     #submit{
-        margin-top: 90px;
+        margin-top: 70px;
         margin-left: 250px;
     }
     #form{
@@ -51,37 +51,37 @@ select city drop down journey date, uske niche ek aur box bus information radio 
             <table>
                 <tr>
                     <td>User Name:</td>
-                    <td><input type="text" placeholder="Enter your name"></td>
+                    <td><input type="text" placeholder="Enter your name" id="name"></td>
                 </tr>
                 <tr>
                     <td>User Age:</td>
-                    <td><input type="number" placeholder="Enter your age"></td>
+                    <td><input type="number" placeholder="Enter your age" id="age"></td>
                 </tr>
                 <tr>
                     <td>User Adhaar:</td>
-                    <td><input type="number" placeholder="Enter Adhaar no"></td>
+                    <td><input type="text" placeholder="Enter Adhaar no" id="Adhaar"></td>
                 </tr>
                 <tr>
                     <td>Select your city:</td>
-                    <td><Select>
+                    <td><select id="city">
                         <option value="">Ghaziabad</option>
                         <option value="">Noida</option>
                         <option value="">Delhi</option>
                         <option value="">Kanpur</option>
-                    </Select></td>
+                    </select></td>
                 </tr>
                 <tr>
                     <td>Date:</td>
-                    <td><input type="date"></td>
+                    <td><input type="date" id="date"></td>
                 </tr>
             </table>
             <div class="userinfo" style="background-color: white; height: 45px; margin-bottom: 20px; color: black;"><h2>Bus Information</h2></div>
             <table>
                 <tr>
-                    <td><input type="radio">AC BUS 2000</td>
+                    <td><input type="radio" name="bus">AC BUS 2000</td>
                 </tr>
                 <tr>
-                    <td><input type="radio">Non Ac Bus 1500</td>
+                    <td><input type="radio" name="bus">Non Ac Bus 1500</td>
                 </tr>
                 <tr>
                     <td><select name="" id="" ><option value="" p>Select no of seats</option>
@@ -95,6 +95,7 @@ select city drop down journey date, uske niche ek aur box bus information radio 
           </form>
           
     </div>
+    <script src="bus.js"></script>
     
 </body>
 </html>
